@@ -1,0 +1,23 @@
+/* shared styles */
+.btn-primary{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+}
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;   
+}
+nav h3{
+    color: #4E47FF;
+    font-weight: bold;  
+}
+
+
+
