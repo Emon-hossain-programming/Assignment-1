@@ -1,23 +1,141 @@
-/* shared styles */
+/* shared style */
 .btn-primary{
+    width: 132px;
+    height: 48px;
+    gap: 10px;
+    font-size: 15px;
     background-color: #4E47FF;
     color: white;
-    font-weight: bold;
-    padding: 12px 36px;
     border-radius: 10px;
+    opacity: 100%;
     border: none;
+    cursor: pointer;
 }
-/* nav styles */
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 150px;   
-}
-nav h3{
-    color: #4E47FF;
-    font-weight: bold;  
+/* header */
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    width:1440px;
+    height:698px;
 }
 
+
+/* nav title */
+nav{
+display: flex;
+justify-content: space-between;
+max-width:1440px;
+max-height:151px;
+gap:auto;
+font-size:50px;
+opacity:100%;
+margin: 0 150px;
+}
+nav h3{
+    font-size: 34px;
+    width: 99px;
+    height: 51px;
+    color: #4E47FF;
+}
+/* banner styles */
+.banner{
+    width: 905px;
+    height: 217px;
+    opacity: 100%;
+    text-align: center;
+    margin: 0 267px;
+    gap: 30px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+}
+.banner-btn{
+    width: 174px;
+    height: 48px;
+   background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    opacity: 100%;
+    border: none;
+    cursor: pointer; 
+}
+/* user styles */
+.user{
+    display: flex;
+    justify-content: space-between;
+    width: 1123px;
+    height: 328px;
+    gap: 203px;
+    opacity: 100%;
+    /* margin: 116px 177px 0px 140px; */
+    margin-top: 116px;
+}
+.user-content{
+    width: 517px;
+    height: 203px;
+    gap: 23px;
+    opacity: 100%;
+}
+.user-title{
+    font-weight: bold;
+    font-size: 42px;
+    height: 49px;
+}
+.user-paragrap{
+    font-size: 24px;
+    color: #aeacc1;
+}
+.user-btn{
+    width: 229px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    opacity: 100%;
+    border: none;
+    cursor: pointer;
+}
+.image{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+    opacity: 100%;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+/* about */
+.about{
+    background-color: #d3d3d3;
+    border-radius:24px;
+    padding: 50px 142px;
+    text-align: center;
+    margin-top: 116px;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 38px;
+    margin-top: 20px;
+}
+.item-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.item-description{
+    font-size: 20px;
+    color: #807e7e;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
 
 
