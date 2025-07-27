@@ -1,4 +1,7 @@
 /* shared style */
+.universal-btn:hover{
+    animation: backwards;
+}
 .btn-primary{
     width: 132px;
     height: 48px;
@@ -23,18 +26,18 @@ header{
 nav{
 display: flex;
 justify-content: space-between;
-max-width:1440px;
-max-height:151px;
+width:1140px;
+height:151px;
 gap:auto;
 font-size:50px;
-opacity:100%;
-margin: 0 150px;
+margin-left: 150px;
 }
 nav h3{
     font-size: 34px;
     width: 99px;
     height: 51px;
     color: #4E47FF;
+    
 }
 /* banner styles */
 .banner{
@@ -106,7 +109,7 @@ nav h3{
 /* main styles */
 main{
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 0 141px;
 
 }
 /* about */
@@ -139,10 +142,10 @@ main{
 }
 /* skills */
 .skills{
-    background-color: #F2EDED;
-    margin-top: 170px;
+    margin: 170px auto;
     height: 342px;
     border-radius: 15px;
+    background-color: rgb(255, 253, 253)s;
 }
 .skill-title{
     text-align: center;
@@ -153,6 +156,18 @@ main{
 .skills-container{
     display: flex;
     justify-content: space-around;
+    gap: 20px;   
+    padding:10px;
+}
+.skill{
+    padding: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 5px 10px silver;
+    border-radius: 15px;
+    width: 366px;
+    height: 243px;
+    
+
 }
 .star{
     color: #4002be;
@@ -189,6 +204,69 @@ main{
 .skill-date{
     color: #B3B3B3;
 }
- 
+.form{
+    display: flex;
+    justify-content: space-between;
+    height: 632px;
+    margin: 92px 16px;
+}
+.form-title{
+    font-weight: bold;
+    font-size: 97px;
+    width: 528px;
+    height: 232px;
+    margin: 200px auto;
+}
+.form-action{
+    width: 497px;
+    height: 490px;
+    margin: 71px auto;
+}
+.input{
+    padding: 32px;
+    font-size: 20px;
+    width: 497px;
+}
+.form-btn{
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    opacity: 100%;
+    border: none;
+    cursor: pointer;
+    width: 565px;
+    height: 62px;
+    font-size: 19px;
+
+}
+/* footer */
+.footer{
+    background-color: #FFF8F3;
+    width: 1440px;
+    height: 428px;
+    padding: 104px;
+
+}
+.anchor{
+    text-decoration: none;
+    color: #8987A1;
+    margin: 0 30px;
+}
+.footer-colum{
+    width: 531px;
+    height: 221px;
+    text-align: center;
+    margin: 90px 454px;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+.footer-desc{
+    color: #8987A1;
+}
+
 
 
