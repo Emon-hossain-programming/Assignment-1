@@ -137,5 +137,58 @@ main{
     display: flex;
     justify-content: space-around;
 }
+/* skills */
+.skills{
+    background-color: #F2EDED;
+    margin-top: 170px;
+    height: 342px;
+    border-radius: 15px;
+}
+.skill-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+}
+.star{
+    color: #4002be;
+    gap: 4px;
+    width: 116px;
+    height: 20px;
+    font-size: 30px;
+}
+.skills-title{
+    width: 221px;
+    height: 29px;
+    margin-bottom: 10px;
+}
+.skill-description{
+    width: 318px;
+    height: 44px;
+    font-size: 16px;
+}
+.assets{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+.skill-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+}
+.skill-name{
+    width: 266px;
+    height: 22px;
+    color:#757575;
+}
+.skill-date{
+    color: #B3B3B3;
+}
+ 
 
 
